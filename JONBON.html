@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonathan's Photography</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #0073e6;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .font1 {
+            font-family: Arial, sans-serif;
+        }
+        .font2 {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        iframe, video {
+            width: 100%;
+            height: 400px;
+            margin: 20px 0;
+            border-radius: 8px;
+            border: none;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #0073e6;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Jonathan's Photography</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#download">Download</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Learn more about Jonathan's Photography!</p>
+            <img src="IMG_0285.JPG" alt="Night view of the city with reflections on the water">
+        </section>
+
+        
+        <section id="videos">
+            <h2>Our Videos</h2>
+            <!-- Video 1 - YouTube -->
+            <iframe src="https://www.youtube.com/embed/Edvpu_939l4?si=gnvwKEWOar1qA0AU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            
+            <video controls>
+                <source src="12392244_1080_1920_25fps.mov" type="video/mp4">
+                
+            </video>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="font1">Service</th>
+                        <th class="font2">Description</th>
+                        <th class="font1">Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="font1">Portrait Photography</td>
+                        <td class="font2">High-quality individual portraits.</td>
+                        <td class="font1">$150</td>
+                    </tr>
+                    <tr>
+                        <td class="font1">Event Photography</td>
+                        <td class="font2">Capture your special moments.</td>
+                        <td class="font1">$300</td>
+                    </tr>
+                    <tr>
+                        <td class="font1">Commercial Photography</td>
+                        <td class="font2">Professional photos for your business.</td>
+                        <td class="font1">$500</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Jonathan's Photography. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
